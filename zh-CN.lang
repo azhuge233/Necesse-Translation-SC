@@ -4690,6 +4690,7 @@ loadworldfailed=加载世界时出错
 backupworldfailed=备份世界失败
 renamefailed=无法重命名存档
 savenotclosed=之前没有正确保存此世界。这通常是由其他进程（例如杀毒软件）造成的。\n重新启动可能会解决此问题。
+invalidworldname=世界名称无效
 restorebackup=游戏会定时创建备份，你可以在世界加载菜单中还原它们
 statssaveeerror=存档文件夹创建失败，进度可能不会被保存
 workinprogress=正在制作中
