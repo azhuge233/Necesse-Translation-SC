@@ -102,14 +102,18 @@ air=空气
 
 // Trees/big flora
 oaktree=橡树
+oaktreestump=橡树树桩
 oaksapling=橡树树苗
 sprucetree=云杉树
+sprucetreestump=云杉树桩
+sprucelogbench=云杉树座
 sprucesapling=云杉树苗
 pinetree=松树
 pinesapling=松树树苗
 palmtree=棕榈树
 palmsapling=棕榈树苗
 willowtree=柳树
+willowtreestump=柳树树桩
 willowsapling=柳树树苗
 mapletree=枫树
 maplesapling=枫树树苗
@@ -141,9 +145,14 @@ carpentersbench=木工台
 landscapingstation=园艺工作站
 ironanvil=铁砧
 demonicworkstation=恶魔工作站
+demonicanvil=恶魔铁砧
 alchemytable=炼金工作台
-advancedworkstation=高级工作站
+tungstenworkstation=钨制工作站
+tungstenanvil=钨制铁砧
+voidalchemytable=虚空炼金工作台
+caveglowalchemytable=洞穴辉光炼金工作台
 fallenworkstation=堕落工作站
+fallenanvil=堕落铁砧
 fallenalchemytable=堕落炼金工作台
 
 // Walls and doors etc
@@ -256,6 +265,7 @@ oillantern=油灯
 lantern=提灯
 walllantern=壁灯
 waterlantern=水灯
+candle=蜡烛
 wallcandle=壁烛
 stonecandlepedestal=石烛台
 snowcandlepedestal=雪烛台
@@ -536,6 +546,11 @@ mushroomflower=成熟蘑菇
 caveglowsprout=洞穴辉光萌芽
 wildcaveglow=野生洞穴辉光
 caveglow=洞穴辉光
+yellowflowerpatch=黄色花簇
+redflowerpatch=红色花簇
+purpleflowerpatch=紫色花簇
+blueflowerpatch=蓝色花簇
+whiteflowerpatch=白色花簇
 
 // Processing
 campfire=营火
@@ -610,6 +625,8 @@ snowpile=积雪
 leafpile=树叶堆
 cobweb=蜘蛛网
 thorns=荆棘
+swamproot=沼泽根
+cowskeleton=牛骨
 katanastone=武士刀之石
 ladderdown=梯子(向下)
 ladderup=梯子(向上)
@@ -636,6 +653,8 @@ homestone=传送石碑
 waystone=路径石碑
 travelstone=旅行石碑
 bannerstand=旗帜架
+bannerofpeace=和平旗帜
+bannerofwar=战争旗帜
 musicplayer=音乐播放器
 cartographertable=制图师桌子
 spideregg=蜘蛛蛋
@@ -987,6 +1006,7 @@ livingshotty=活体枪
 antiquerifle=远古步枪
 shardcannon=碎片加农炮
 snowlauncher=雪球发射器
+seedgun=种子枪
 bullet=子弹
 
 // Bullets
@@ -1152,6 +1172,7 @@ telescopicladder=伸缩梯
 toolextender=工具扩展器
 toolbox=工具箱
 itemattractor=物品吸引器
+minersprosthetic=矿工义肢
 spikedboots=钉靴
 spikedbatboots=蝙蝠钉靴
 froststone=寒冰之石
@@ -1535,6 +1556,7 @@ ammobag=子弹包
 potionpouch=药水袋
 potionbag=药水包
 lunchbox=午餐盒
+seedpouch=种子袋
 tabletbox=门牌盒
 portablemusicplayer=便携音乐播放器
 fireworkrocket=烟花袋
@@ -1583,10 +1605,11 @@ importedsheep=进口羊
 importedpig=进口猪
 mount=坐骑
 inefficientfeather=低级羽毛
+callofthesea=海之呼唤
 jumpingball=跃动球
 hoverboard=悬浮板
 eyeinaportal=传送门中的凝视
-weticicle=潮湿垂冰
+weticicle=潮湿冰锥
 grizzlycub=灰熊幼崽
 exoticseeds=奇异种子
 grizzlylunch=灰熊午餐
@@ -1768,6 +1791,7 @@ constructionhammer=增加建造速度
 telescopicladder=增加建造距离
 toolextender=增加挖掘距离
 itemattractortip=增加物品拾取范围
+minersprosthetictip=采矿时会对周围的其他石矿造成伤害
 spikedboots=移动速度提高15%\n防滑
 spikedbatboots=移动速度提高25%\n防滑
 froststonetip=攻击对目标造成减速\n以及持续5秒的15点伤害
@@ -1830,6 +1854,7 @@ snowlaunchertip2=有50%几率不消耗雪球
 snipertip=带有狙击瞄准镜
 deathrippertip1=有75%几率不消耗弹药
 deathrippertip2=充能后射速增加
+seedguntip=射出种子\n子弹会根据所用的种子发生变化
 throwtip=可以扔出
 katanasecondarytip=按住 [input=mouse2] 进行冲刺，切过敌人。\n击中敌人会刷新冷却时间，并使下一次冲刺速度更快，最多 <stacks> 个连续冲刺
 katanaprimarytip=[input=mouse1] 攻击会减少累积的冲刺次数
@@ -2015,9 +2040,15 @@ ladderdowntip=用来下洞穴
 deepladderdowntip=用来下深层洞穴
 cartographertabletip=用于交换地图探索信息
 placeinsettlement=必须在买到它的营地中放置
+placeinanysettlement=必须放置在营地中
 waystonetip1=放置后不能被捡起
 waystonetip2=由营地内的法师出售
 travelstonetip=用于长距离传送到附近的岛屿
+forgetip=用于冶炼矿石和沙子
+anviltip=用于制作装备
+carpenterstip=用于制作家具等物品
+roastingtip=用于烤肉
+cookingpottip=用于制作食品菜肴
 compostbintip=缓慢生成肥料
 grainmilltip=用于将谷物磨成粉
 cheesepresstip=用于将牛奶做成奶酪
@@ -2027,6 +2058,9 @@ trainingdummytip=攻击它来测试伤害
 dressertip=可储存盔甲
 displaytip=展示储存的物品
 bannerstandtip=在它附近施加旗帜效果
+bannerofpeacetip=阻止其周围区域内的敌人生成
+bannerofwartip1=迅速在其周围生成敌人
+bannerofwartip2=敌人将试图摧毁旗帜，并会破坏挡路的障碍物
 campfiretip=点亮时给予生命恢复效果
 eggnesttip1=孵蛋用的巢
 eggnesttip2=受精蛋更倾向于在巢中产下
@@ -2164,6 +2198,8 @@ storedpotions=储存的药水： <items>
 lunchboxtip1=存放拾取的食物
 lunchboxtip2=使用吃里面的食物
 storedfood=储存的食物：<items>
+seedpouchtip=可以保存得到的种子
+storedseeds=储存的种子：<items>
 fireworkrockettip=可以在手中发射，也可以用发射器发射
 storedammo=储存的弹药： <items>
 tabletboxtip=储存收集到的传送门牌
@@ -2189,11 +2225,28 @@ summonmounttip=用于召唤<mob>坐骑
 summonslots=最大同时存在个数：<count>
 summonuseslots=使用<count>个召唤槽
 steelboattip=+2旅行距离
+calloftheseatip=快于水，慢于地
 jumpingballtip=有趣，并且适合所有人！
 hoverboardtip=会缓慢增加速度
 bouncingammotip=碰墙会弹跳
 voidammotip=瞄准附近的敌人
 crystalammotip=偶尔基于暴击几率和暴击伤害造成一次爆发性伤害
+chilipepperseedammotip=种子枪会点燃目标
+firemoneseedammotip=种子枪会点燃目标
+iceblossomseedammotip=种子枪会减缓目标速度
+riceseedammotip=种子枪的射速提升
+strawberryseedammotip=种子枪的射速提升
+cabbageseedammotip=种子枪击中目标时会恢复生命值
+tomatoseedammotip=种子枪击中目标时会恢复生命值
+potatoseedammotip=种子枪击中目标时会恢复生命值
+sunflowerseedammotip=种子枪击中目标时会恢复生命值
+eggplantseedammotip=种子枪子弹的飞行速度和射程增加
+onionseedammotip=种子枪子弹的飞行速度和射程增加
+sugarbeetseedammotip=种子枪子弹的飞行速度和射程增加
+cornseedammotip=种子枪的韧性增益提升
+wheatseedammotip=种子枪的韧性增益提升
+pumpkinseedammotip=种子枪的击退效果增强
+carrotseedammotip=种子枪的伤害提升
 
 // Quests
 questitem=任务物品
@@ -2254,6 +2307,10 @@ commonfish=普通鱼
 food=食物
 ingredient=材料
 potions=药水
+resourcepotions=生命与魔法
+greaterbuffpotions=增强战斗增益
+buffpotions=战斗增益
+utilitypotions=实用增益
 bossitems=BOSS物品
 materials=材料
 ore=矿石
@@ -2274,10 +2331,17 @@ seeds=种子
 saplings=幼苗
 craftingstations=制造站
 furniture=家具
+paintings=画作
+carpets=地毯
+lighting=照明
 wallsanddoors=墙和门
 fencesandgates=栅栏和栅栏门
+columns=柱子
 traps=陷阱
 landscaping=园艺
+rocksandores=岩石和矿物
+plants=植物
+crates=箱子
 wiring=导线
 logicgates=逻辑门
 misc=杂项
@@ -2287,6 +2351,7 @@ pouches=袋子
 vinyls=黑胶唱片
 questitems=任务物品
 unknownitems=<count> 未知物品
+incursions=副本
 
 [enchantment]
 SAME_TRANSLATION:format=<enchantment> <item>
@@ -2486,6 +2551,7 @@ bloodmarked=鲜血标记
 
 targetrange=<mod>% 仇恨范围
 chaserrange=<mod>% 追逐范围
+canbreakobjects=可以摧毁物品
 loot=<mod>% 战利品
 enemydamage=<mod>% 敌人攻击
 enemyspeed=<mod>% 敌人速度
@@ -2653,6 +2719,7 @@ petwalkingtorch=行走的火把
 petcavelingelder=穴居者长老
 jumpingball=跃动球
 hoverboard=悬浮板
+seahorse=海马
 babyzombie=僵尸宝宝
 babyzombiearcher=弓箭手僵尸宝宝
 babyspider=蜘蛛宝宝
@@ -3206,10 +3273,15 @@ forge=熔炉
 carpenter=木工台
 landscaping=园艺工作站
 ironanvil=铁砧
+demonicanvil=恶魔铁砧
 alchemy=炼金工作台
 demonic=恶魔工作站
-advanced=高级工作站
+tungstenworkstation=钨制工作站
+tungstenanvil=钨制铁砧
 fallen=堕落工作站
+fallenanvil=堕落铁砧
+voidalchemy=虚空炼金工作台
+caveglowalchemy=洞穴辉光炼金工作台
 fallenalchemy=堕落炼金工作台
 madein=可在 <tech> 中制造
 madeinhidden=可在 <tech> 中制造（隐藏的配方）
@@ -3439,6 +3511,8 @@ showhidden=显示隐藏
 craftshowhiddentip=部分配方已隐藏，直到你拥有全部材料或特定材料才会显示
 usenearbyinv=使用附近的库存
 usenearbyinvtip=制造时将使用附近库存的物品
+highlighttechrecipes=高亮 <tech> 配方
+upgradeto=升级到 <upgrade>
 expand=展开
 collapse=折叠
 fuel=燃料
@@ -3494,6 +3568,10 @@ renamebutton=重命名
 wakeupbutton=唤醒
 setspawnbutton=设置出生点
 clearspawnbutton=清除出生点
+selectincursions=副本
+incursionentries=副本日志条目
+selectbiomes=群落
+biomeentries=群落日志条目
 
 // Main menu
 continueworld=继续游戏
@@ -3868,7 +3946,7 @@ eldercompletequest=完成任务
 elderskipquest=更换任务
 eldertiercompleteerr=请先完成 <count> 个任务
 elderbiggerchallenge=我正在找一个更大的挑战
-elderifready=如果你准备好了，我这里有任务
+elderwhenready=等你准备好了，我有个任务要交代给你
 elderquestdone=干得好！完成以获得奖励
 eldernotierquest=我没有更多像那样的任务了
 eldernotready=我还没准备好
@@ -4381,10 +4459,15 @@ useladderfloat=靠近，对梯子按 <key> 前往洞穴
 mineore=手持镐，按 <key> 挖掘矿石
 findorefloat=四处走走，挖些矿石
 ores=矿石可以用在制作锭，锭可以用来制作很多东西
+journal=你能在洞穴中找到所有矿石、怪物和宝藏。\n\n要了解更多关于洞穴和群落的信息，请打开位于你物品栏右侧的冒险日志。
+openjournal=点击这里来打开冒险日志
 travel=如果你到达了地图的边缘，你就可以前往其他岛屿。不同的岛屿有不同的群系，比如地牢和村庄。按 <key> 可以查看世界地图。祝您游戏愉快！
 settlement=回到地面放置营地旗帜来新建营地。你可以在初始房屋里的箱子中找到一个旗帜，或者也可以在工作台制作。与旗帜互动，或是按下 <key> 来开启营地菜单。
 takeflag=从箱子中取出营地旗帜
 useflag=按 <key> 放置营地旗帜
+settlementtip=你可以在营地菜单管理定居者。\n\n定居者可以帮你收集资源，也能加入你的冒险。
+takeelderquest=看起来长老有个任务要交给你。快去接任务吧！
+elderquestinfo=长老任务是你能完成的主要目标。\n\n但也可以随意以自己的节奏探索这个世界。
 tutorialdone=感谢游玩，祝您探索愉快！
 endtutorial=结束教程
 next=下一步
@@ -4596,6 +4679,7 @@ invlock=切换槽位锁定
 invquickmove=快速移动
 invtrash=快速放进垃圾桶
 invdrop=快速丢弃
+craft10=制作 10
 craftall=制作全部
 
 // Control tips
@@ -4656,6 +4740,13 @@ menulockitem=菜单锁定物品
 menumoveoneitem=菜单移动单个物品
 menugetoneitem=菜单获取单个物品
 
+[itemcollections]
+frogcostume=青蛙套装
+seedgunandpouch=种子枪和种子袋
+horsecostume=马套装
+chickencostume=鸡套装
+aliencostume=外星人套装
+
 [incursion]
 duskarmorloot=等级 <tier> 暮光防具物品
 dawnarmorloot=等级 <tier> 晨光防具物品
@@ -4672,12 +4763,17 @@ treasures=宝藏
 togglehide=显示/隐藏
 newentry=一个新条目已经添加至你的 [[Adventure Journal]]
 newentrytip=有新条目
+challenges=挑战
+challengesreward=奖励：
+surface=树木，花朵和鱼类
+cave=矿石，矿物和鱼类
 biomes=群落
 forestsurface=森林地表
+forestsurfacelore=森林表层以丰富的森林资源而闻名。
 plainssurface=平原地表
 forestcave=森林洞穴
 forestdeepcave=森林深层洞穴
-piratevillage=海盗村庄
+forestpiratevillage=海盗村庄
 snowsurface=雪地地表
 snowcave=雪地洞穴
 snowdeepcave=雪地深层洞穴
@@ -4700,6 +4796,59 @@ spidercastleincursion=蛛魔城堡副本
 sunarenaincursion=太阳竞技场副本
 moonarenaincursion=月亮竞技场副本
 crystalhollowincursion=水晶洞穴副本
+claimchallenge=领取
+challengeclaimed=已领取
+challengecompleted=你完成了 <journal> 的 <challenge> 挑战 [[冒险日志]]
+challengerewardavail=现在可以在 <journal> 中领取奖励 [[冒险日志]]
+killzombies=[mob=zombie] 在森林中杀死 25 个僵尸
+capturecow=[item=rope] 在森林中使用绳索抓住一头牛
+defeatstabby=[mob=stabbybush] 击败刀人的灌木
+usemysteriousportal=[item=mysteriousportal] 使用神秘传送门
+beatabear=[mob=grizzlybear] 打败一头熊
+mineorewithexplosive=[item=ironbomb] 在森林洞穴中使用爆炸物采矿
+defeatcaveling=[mob=stonecaveling] 在森林洞穴中抓住并打败一个岩石穴居者
+crafttungstenweapon=[item=tungstensword] 制作一把钨制武器
+craftlifeelixir=[item=lifeelixir] 制作一瓶长生不老药
+plantlemontree=[item=lemon] 种下一颗柠檬树
+craftraspberryjuice=[item=raspberryjuice] 制作一些树莓果汁
+smackleafpiles=[item=leafpile] 击打 20 堆树叶
+capturebee=[item=net] 在平原用网抓到一只蜜蜂
+catchicefish=[item=icefish] 钓到一只冰霜之鱼
+pickupsnowballs=[item=snowball] 通过摧毁雪堆收集 25 个雪球
+findweticicle=[item=weticicle] 找到潮湿冰锥
+equipfrostset=[item=frostchestplate] 制作并装备一套完整的冰霜护甲
+impalejavelins=[item=icejavelin] 在雪地洞穴中使用冰标枪穿刺同一个敌人 5 次
+destroyroyalegg=[item=royalegg] 破坏一颗皇室之蛋
+walkondeepice=[item=spikedboots] 在深冰上行走而不打滑
+craftlandscaping=[item=landscapingstation] 制作园艺工作站
+severalpotionbuffs=[item=battlepotion] 在雪地深层洞穴中同时拥有 5 种及以上药水增益效果
+craftroastedfrogleg=[item=roastedfrogleg] 制作一只烤蛙腿
+pickupswamplarvae=[item=swamplarva] 通过破坏草丛收集 10 个沼泽虫鱼饵
+gathermushrooms=[item=mushroom] 在沼泽收集 30 个蘑菇
+cutswampthorns=[item=thorns] 在沼泽洞穴中砍下 200 个荆棘
+craftivytool=[item=ivypickaxe] 制作一个常春藤斧，常春藤镐或常春藤铲
+partyinswampcaves=[mob=human] 在冒险队伍中拥有 2 名或更多定居者的情况下\n探索沼泽洞穴
+enchantandequipset=[item=enchantingscroll] 在装备一套完全附魔的护甲时探索沼泽深层洞穴
+craftdecayingleaf=[item=decayingleaf] 制作腐烂之叶
+cutswampcobweb=[item=cobweb] 在沼泽深层洞穴中砍下 1000 张蜘蛛网
+findinefficientfeather=[item=inefficientfeather] 找到一根低级羽毛
+eatcoconut=[item=coconut] 找到并吃掉一个椰子
+craftpalmfurniture=[item=palmbench] 在木工台制作一个棕榈木家具
+smashvases=[item=vase] 打碎 30 个花瓶
+equipsettlerquartz=[item=quartzchestplate] 为一个定居者装备一整套石英护甲
+findcavelingoasis=[mob=sandstonecaveling] 找到穴居者绿洲
+lootdeepdeserttrinket=[item=scryingmirror] 在沙漠深层洞穴中找到并拾取一件饰品
+oneshotskeleton=[mob=ancientskeleton] 在沙漠深层洞穴中一击杀死一个骷髅
+findtemplebiome=[mob=sageandgrit] 寻找更深处的道路……
+findsecretpainting=[item=paintingelder] 找到并偷走秘密画作
+defeatoldnemesis=[mob=fallenwizard] 打败你的宿敌
+craftfallenaltar=[item=fallenaltar] 制作堕落祭坛
+freecapturedmage=[mob=magehuman] 找到并解救被囚禁的法师
+upgradealchemytable=[item=voidalchemytable] 将你的炼金工作台升级为虚空炼金工作台
+findvoidwizardchamber=[mob=voidwizard] 找到虚空巫师的密室
+defeatpirateswhileonboat=[item=woodboat] 航行时击败 5 名海盗
+freecapturedstylist=[item=stylishflower] 找到并解救被囚禁的造型师
+destroycoinstacks=[item=coinstack] 在海盗村庄破坏五个金币堆
 
 [misc]
 recipecostmult=制作 <amount> 的花费：
