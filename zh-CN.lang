@@ -81,6 +81,11 @@ cryptpath=墓穴地面
 spidercobbletile=蜘蛛圆石地面
 spidercastlefloor=蛛魔城堡地面
 spidercastlecarpet=蛛魔城堡地毯
+dawnpath=晨光路
+lavapath=岩浆路
+moonpath=月光路
+darkmoonpath=暗月光路
+darkfullmoonpath=暗满月路
 
 [object]
 unknownobject=未知物体
@@ -176,6 +181,12 @@ cryptdoorlocked=上锁的墓穴门
 spidercastlewall=蛛魔城堡墙
 spidercastledoor=蛛魔城堡门
 spidercastledoorlocked=上锁的蛛魔城堡门
+dawnwall=晨光墙
+dawndoor=晨光门
+dawndoorlocked=上锁的晨光门
+duskwall=暮光墙
+duskdoor=暮光门
+duskdoorlocked=上锁的暮光门
 woodfence=木栅栏
 woodfencegate=木栅栏门
 stonefence=石栅栏
@@ -460,7 +471,8 @@ lifequartzore=生命石英
 glacialore=冰川矿石
 myceliumore=菌丝矿石
 ancientfossilore=远古化石矿石
-alchemyshardore=炼金石碎片
+alchemyshardore=炼金碎片矿石
+upgradeshardore=升级碎片矿石
 slimeum=史莱姆矿石
 nightsteelore=夜铁矿石
 spideriteore=蛛裔矿石
@@ -486,6 +498,7 @@ templeentrance=圣殿入口
 templeexit=圣殿出口
 fallenaltar=堕落祭坛
 upgradestation=升级工作站
+salvagestation=回收工作站
 coinstack=金币堆
 crate=箱
 snowcrate=雪地箱
@@ -618,7 +631,8 @@ spidervenom=蛛毒
 glacialshard=冰川残片
 glassbottle=玻璃瓶
 book=书本
-alchemyshard=炼金石碎片
+alchemyshard=炼金碎片
+upgradeshard=升级碎片
 shadowessence=暗影精华
 cryoessence=急冻精华
 bioessence=生物精华
@@ -706,6 +720,9 @@ wrench=扳手
 cutter=切割机
 wire=导线
 net=网
+multitool=多功能工具
+closerangeweapon=近战武器
+incursioncloserangeweapon=副本近战武器
 
 // Swords
 woodsword=木剑
@@ -728,12 +745,17 @@ antiquesword=上古剑
 bloodclaw=血爪
 thecrimsonsky=猩红苍穹
 causticexecutioner=腐蚀处刑者
+greatsword=巨剑
+incursiongreatsword=副本巨剑
 irongreatsword=铁巨剑
 frostgreatsword=冰霜巨剑
 ivygreatsword=常春藤巨剑
 quartzgreatsword=石英巨剑
 glacialgreatsword=冰川巨剑
 slimegreatsword=史莱姆巨剑
+ravenwinggreatsword=渡鸦之翼
+spear=矛
+incursionspear=副本矛
 
 // Spears
 woodspear=木矛
@@ -748,6 +770,8 @@ ivyspear=常春藤矛
 vulturestalon=秃鹫利爪
 tungstenspear=钨矛
 cryospear=冰矛
+glaive=阔剑
+incursionglaive=副本阔剑
 
 // Glaives
 goldglaive=金阔剑
@@ -755,6 +779,8 @@ frostglaive=冰霜阔剑
 quartzglaive=石英阔剑
 cryoglaive=急冻阔剑
 slimeglaive=史莱姆阔剑
+bow=弓
+incursionbow=副本弓
 
 // Bows
 woodbow=木弓
@@ -770,6 +796,8 @@ glacialbow=冰川弓
 bowofdualism=双重弓
 antiquebow=远古弓
 arachnidwebbow=蛛网弓
+greatbow=巨弓
+incursiongreatbow=副本巨弓
 goldgreatbow=金巨弓
 voidgreatbow=虚空巨弓
 ivygreatbow=常春藤巨弓
@@ -777,6 +805,7 @@ tungstengreatbow=钨巨弓
 myceliumgreatbow=菌丝巨弓
 druidsgreatbow=德鲁伊弓
 nightpiercer=刺穿黑夜
+theravensnest=渡鸦之巢
 
 // Arrows
 stonearrow=石箭
@@ -787,6 +816,8 @@ bouncingarrow=弹跳箭
 ironarrow=铁箭
 bonearrow=骨箭
 spideritearrow=蛛裔箭
+gun=枪
+incursiongun=副本枪
 
 // Guns
 handgun=手枪
@@ -808,6 +839,8 @@ frostbullet=冰霜子弹
 bouncingbullet=弹跳子弹
 voidbullet=虚空子弹
 cannonball=炮弹
+magicweapon=魔法武器
+incursionmagicweapon=副本魔法武器
 
 // Magic weapons
 bloodbolt=鲜血迸发
@@ -837,6 +870,8 @@ phantompopper=幻影法杖
 bloodgrimoire=血之魔典
 slimegreatbow=史莱姆巨弓
 webweaver=织网者
+throwingweapon=投掷武器
+incursionthrowingweapon=副本投掷武器
 
 // Throw weapons
 ninjastar=忍者飞镖
@@ -857,6 +892,8 @@ carapacedagger=甲壳匕首
 dragonsrebound=神龙回闪
 nightrazorboomerang=暗影回旋镖
 snowball=雪球
+summonweapon=召唤武器
+incursionsummonweapon=副本召唤武器
 
 // Summon weapons
 brainonastick=大脑权杖
@@ -970,6 +1007,7 @@ manica=袖甲
 agedchampionscabbard=陈旧冠军剑鞘
 challengerspauldron=挑战者的肩甲
 clockworkheart=发条心
+foolsgambit=愚者的赌注
 
 // Armor
 leatherhood=皮兜帽
@@ -1056,6 +1094,15 @@ spideritehood=蛛裔兜帽
 spideritecrown=蛛裔皇冠
 spideritechestplate=蛛裔胸甲
 spideritegreaves=蛛裔胫甲
+ravenlordsheaddress=渡鸦领主头饰
+ravenlordschestplate=渡鸦领主胸甲
+ravenlordsboots=渡鸦领主靴
+dawnhelmet=晨光头盔
+dawnchestplate=晨光胸甲
+dawnboots=晨光靴
+duskhelmet=暮光头盔
+duskchestplate=暮光胸甲
+duskboots=暮光靴
 
 // Cosmetic Armor
 shoes=鞋子
@@ -1266,7 +1313,11 @@ recallflask=回城魔瓶
 stinkflask=恶臭魔瓶
 portalflask=传送瓶
 enchantingscroll=注魔卷轴
+tablet=门牌
+SAME_TRANSLATION:formattablet=<biome> <tablet>
 gatewaytablet=传送门牌
+tier=等级 <tiernumber>
+tierandincursiontype=等级 <tiernumber> <incursiontype>
 
 // Misc
 craftingguide=合成指南
@@ -1279,6 +1330,7 @@ ammobag=子弹包
 potionpouch=药水袋
 potionbag=药水包
 lunchbox=午餐盒
+tabletbox=门牌盒
 portablemusicplayer=便携音乐播放器
 fireworkrocket=烟花袋
 woodboat=木船
@@ -1417,6 +1469,10 @@ slimeset=点击 [input=setability] 将所受伤害减少至1点\n但是显著增
 nightsteelset=点击 [input=setability] 以提升移速并且使敌人无法攻击自己\n但是自己也无法进行攻击，持续3秒
 bloodplateset=受到伤害后生命恢复速度翻倍，持续4秒
 spideriteset=点击 [input=setability] 在地面生成一串有毒的蛛网，持续10秒\n对减速免疫
+ravenlordset=移动时产生羽毛，羽毛追踪敌人并造成基于自身移动速度的伤害
+ravenlordsetdamage=羽毛伤害: <damage>
+dawnset=在白天修改近战和远程攻击
+duskset=在晚上修改魔法和召唤攻击
 
 // Trinkets
 trinketslot=饰品槽位
@@ -1494,6 +1550,8 @@ manicatip=增加50点韧性上限\n增加50%韧性获取速度
 agedchampionscabbardtip=被动恢复韧性\n被击中后失去所有韧性
 clockworkhearttip=将一半生命值转换为韧性\n满血时恢复韧性
 challengerspauldrontip=附近有BOSS时增加100%韧性获取速度
+foolsgambittip=+10护甲\n+10%伤害\n+10%暴击几率\n+1召唤物上限\n只能装备在饰品能力槽位
+foolsgambiterrortip=只能装备在饰品能力槽位
 
 // Tools
 tooldmg=工具伤害： <value>
@@ -1502,6 +1560,7 @@ tooladdrange=<value>范围
 pickaxetip=镐
 shoveltip=铲
 axetip=斧
+multitooltip=斧，镐和铲工具
 demonictooltip=可以开采沙漠石英
 tungstentooltip=可以开采黑曜石和深层雪地洞穴的冰川矿
 glacialtooltip=可以开采深沼泽洞穴的菌丝矿石
@@ -1618,6 +1677,8 @@ secondarysummon=占用独立召唤槽
 nettip=用于捕捉蜜蜂
 slimegreatbowtip=从空中射下史莱姆粘液，大幅减缓敌人速度
 orbofslimestip=召唤一个绕着你旋转的史莱姆，与敌人碰撞时造成伤害
+ravenwinggreatswordtip=蓄力更快，攻击时没有移动惩罚
+theravensnesttip=一次射出3只渡鸦
 
 // Food
 nutritiontip=营养： <value>
@@ -1817,6 +1878,11 @@ weaponslot=武器槽位
 voidshardtip=魔法精华
 glassbottletip=在炼金工作台中使用
 gatewaymaterial=在堕落祭坛上使用
+upgradestationtip=用于升级武器，护甲和传送门牌
+salvagestationtip=用于将不需要的武器、盔甲和传送门片转化为升级碎片
+alchemytabletip=用于制作强力药水
+alchemyshardtip=用于在堕落炼金工作台上升级药水
+upgradeshardtip=用于在升级工作站上升级装备
 tieressence=等级 <tier> 精华
 mapfragmenttip=收集两张来制作地图
 sparepartstip=用于建造钢船
@@ -1841,6 +1907,7 @@ lunchboxtip2=使用吃里面的食物
 storedfood=储存的食物：<items>
 fireworkrockettip=可以在手中发射，也可以用发射器发射
 storedammo=储存的弹药： <items>
+tabletboxtip=储存收集到的传送门牌
 rclickopentip=[input=-99]来打开
 rclickinvopentip=在背包中[input=-99]来打开
 rclickinvrenametip=在背包中[input=-99]来重命名
@@ -2133,6 +2200,7 @@ dashcooldownflat=<mod>s 冲刺冷却
 staminacap=<mod>% 耐力上限
 staminausage=<mod>% 耐力消耗
 staminaregen=<mod>% 耐力回复
+potionduration=<mod>% 药水持续时间
 
 traveldistance=<mod> 旅行距离
 biomeviewdistance=<mod> 群落可视距离
@@ -2194,6 +2262,7 @@ cardinalbird=红雀
 spider=蜘蛛
 mouse=老鼠
 caveling=穴居者
+flameling=火焰精灵
 
 // Humans
 human=村民
@@ -2345,6 +2414,9 @@ nightswarm=暗夜蝠群
 nightswarmbat=暗夜蝠群蝙蝠
 motherslime=史莱姆之母
 spiderempress=蛛魔女皇
+sunlightchampion=阳光卫士
+sunlightgauntlet=阳光护手
+moonlightdancer=月光舞者
 
 // Misc
 woodboat=木船
@@ -2352,6 +2424,8 @@ minecart=矿车
 sawblade=锯刃
 homeportal=出生传送点
 returnportal=返回传送点
+bossspawnportal=BOSS传送点
+incursioncrawlingzombie=爬行僵尸
 
 [mobmsg]
 angryshop=无法与生气的人交谈
@@ -2595,7 +2669,9 @@ haunted=缠绕
 ivypoison=常春藤药水
 spidercharmpoison=蜘蛛之魅药水
 slimepoison=史莱姆毒素
-ninjasetbonus=忍着套装效果
+starbarrier=星辰屏障
+crushingdarkness=毁灭之暗
+ninjasetbonus=忍者套装效果
 summonedpet=已召唤宠物
 summonedmount=已召唤坐骑
 summonedmob=已召唤生物
@@ -2623,6 +2699,9 @@ fooddebuff=消耗的变质食物
 hungry=饥饿
 starving=极度饥饿
 stamina=耐力
+tremorincoming=震颤来临
+tremorhappening=震颤！移动速度减慢
+alchemicalinterference=药水持续时间减少
 
 [bufftooltip]
 canceltip=消除效果
@@ -2655,8 +2734,14 @@ deepcave=<biome> 深层洞穴
 slimecave=史莱姆洞穴
 graveyard=墓园
 spidercastle=蛛魔城堡
+sunarena=太阳竞技场
+moonarena=月亮竞技场
+hunt=追捕
+extraction=开采
+trial=试炼
 incursionhunt=<incursion> 追捕
 incursionextraction=<incursion> 开采
+incursiontrial=<incursion> 试炼
 
 [richpresence]
 atmainmenu=在主菜单
@@ -2819,7 +2904,7 @@ completedon=完成日期：<date>
 spelunker=开启探险者模式
 spelunker_desc=小心不要迷路了！
 defeat_boss=许多中的第一个
-defeat_boss_desc=打败第一个boss
+defeat_boss_desc=打败第一个BOSS
 get_pet=冒险的好伙伴
 get_pet_desc=获得第一只宠物
 start_settlement=自己动手，丰衣足食
@@ -2881,7 +2966,7 @@ initmods=加载mod
 initmodsres=加载mod资源
 postinitmods=完成mod加载
 biomes=加载群落
-incursions=加载入侵
+incursions=加载副本
 buffs=加载buff
 items=加载物品
 leveldata=加载关卡数据
@@ -3778,31 +3863,57 @@ waystoneempty=空槽位
 waystonenum=路径石碑 <num>
 waystonehelp=每完成一个系列任务就能获得一个路径石碑槽位\n可以从营地法师处购买路径石碑
 placegatewaytablet=放置一个传送门牌来激活
-selectincursion=选择入侵
+selectincursion=选择副本
 incursionrefreshesin=在 <time> 秒内刷新
-noincursionselected=没有选择入侵
+noincursionselected=没有选择副本
 incursionused=已经使用
 incursioncost=开启花费：
 incursionnocost=无费用
 incursionobjective=目标：
 incursionextractionobjective=开采 <ore>
 incursionhuntobjective=追捕敌人
+incursiontrialobjective=击败BOSS
 incursionloot=战利品：
 incursionmodifiers=地区修饰器：
 incursionnomodifiers=无修饰器
 incursionopenbutton=开启传送门
-incursioncurrent=当前入侵
-incursioncompletebutton=完成入侵
-incursionnowcomplete=§7入侵已完成
-incursionnowclose=§7入侵已关闭
-incursionenterbutton=开始入侵
+incursioncurrent=当前副本
+incursioncompletebutton=完成副本
+incursionnowcomplete=§7副本已完成
+incursionnowclose=§7副本已关闭
+incursionenterbutton=开始副本
 incursionclosebutton=关闭传送门
-incursionconfirmcomplete=要完成入侵吗？
-incursionconfirmclose=要关闭入侵吗？
-incursionconfirmdelete=入侵地区内的物品会永久消失，你也无法再次开启该入侵
+incursionconfirmcomplete=要完成副本吗？
+incursionconfirmclose=要关闭副本吗？
+incursionconfirmdelete=副本地区内的物品会永久消失，你也无法再次开启该副本
 incursionprogressbar=<percent> 进度
-placeupgradableitem=在槽位放置可升级物品来激活
+incursionrandommodifier=新随机修饰器
+incursionrandomreward=新随机奖励
+incursionmodifierfrenzy=狂暴
+incursionmodifierfrenzyinfo=敌人进入狂暴状态，在生命值低于40%时，攻击和移动速度增加50%
+incursionmodifiertremors=震颤
+incursionmodifiertremorsinfo=每隔 <tremorinterval> 秒就会发生一次震颤，将你的移动速度减少50%，持续 <tremorduration> 秒
+incursionmodifieralchemicalinterference=炼金干扰
+incursionmodifieralchemicalinterferenceinfo=药水Buff持续时间减少50%
+incursionmodifiercrawlmageddon=爬行末日
+incursionmodifiercrawlmageddoninfo=所有敌人都伴随一个爬行僵尸
+incursionmodifierexplosive=爆炸
+incursionmodifierexplosiveinfo=敌人死亡后留下爆炸物
+incursionmodifierflamelings=火焰精灵感染
+incursionmodifierflamelingsinfo=偶尔生成一个讨厌的火焰小精灵，引发混乱！
+upgradeplaceitem=在槽位中放置一个武器，护甲或传送门牌来升级
 itemnotupgradable=物品无法升级
+itemupgradelimit=物品无法再升级
+upgradefullstack=需要一组才能升级
+upgradesto=升级到
+upgradesbasestats=(升级后的物品基础属性)
+upgradescost=花费
+tabletupgradetip=新的修饰器和奖励
+applyupgradebutton=确认升级
+salvageplaceitems=放置任意已升级物品来回收
+itemnotsalvageable=物品无法回收
+salvageresults=回收结果：
+salvagebutton=确认回收
 
 // Sidebars
 tutoriallabel=教程
@@ -3897,6 +4008,7 @@ particlesmax=最高
 colormode=颜色模式:
 colornormal=普通
 colorvibrant=鲜艳
+brightness=亮度
 lightmode=光照模式：
 lightscolor=颜色
 lightswhite=白
@@ -3988,6 +4100,8 @@ items_sold=卖出的物品
 money_spent=花掉的钱
 items_bought=买来的物品
 items_enchanted=附魔的次数
+items_upgraded=升级的物品
+items_salvaged=回收的物品
 items_obtained=得到的独特物品
 show_item_list=显示物品列表
 show_items_all=全部
@@ -4007,8 +4121,8 @@ homestones_used=使用过的传送石碑
 waystones_used=使用过的路径石碑
 crafted_items=制作的物品
 crates_broken=打碎的罐子
-opened_incursions=开启过的入侵
-completed_incursions=完成的入侵
+opened_incursions=开启过的副本
+completed_incursions=完成的副本
 
 normal_damage=普通伤害
 true_damage=真实伤害
@@ -4107,11 +4221,13 @@ bosssummon=§b<name> 被召唤了！
 bossawoke=§b<name> 醒来了！
 bossdefeat=§b<name> 被击败了！
 bossapproaching=§b一个敌人正在接近...
+bossportal=§b入口处出现了一个传送门
+bossattempts=剩余尝试次数：<number>
 epescape=§b天亮了，恶魔守卫溜走了！
 bossmissingitem=§a缺少激活物品
 staircaseopening=§i隐藏的楼梯正在打开...
 cannotsummonhere=§a无法在这里召唤
-cannotsummoncomplete=§a入侵已经完成
+cannotsummoncomplete=§a副本已经完成
 cannotsummonnow=§a现在无法召唤
 settlerhungrywarning1=§b如果 <settler> 饥饿时间太长，他们将离开 <settlement>
 settlerhungrywarning2=§b<settler> 即将因为饥饿离开 <settlement>
@@ -4146,7 +4262,7 @@ mountnotown=你不是这个坐骑的主人！
 bedinuse=床已在使用中
 sleepprevented=你现在无法入睡
 spawndungeon=不能在地牢内设置重生点
-spawnincursion=不能在入侵时设置重生点
+spawnincursion=不能在副本内设置重生点
 spawnhouse=不能在野外设置重生点
 spawnset=重生点已设置！
 spawnremoved=重生点已移除！
@@ -4194,4 +4310,5 @@ restorebackup=游戏会定时创建备份，你可以在世界加载菜单中还
 statssaveeerror=存档文件夹创建失败，进度可能不会被保存
 workinprogress=正在制作中
 workinprogresstip=将在未来的更新中出现
+upgradestationwiptip=升级的装备可能会有平衡性问题，未来可能会对升级系统进行较大改动
 justupdated=刚刚更新！
