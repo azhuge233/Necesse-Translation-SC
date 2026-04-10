@@ -6344,6 +6344,7 @@ steamfailed=无法初始化Steam\n确保Steam正在运行
 openglfailed=您的系统似乎不支持OpenGL。\n您可以尝试更新您的图形驱动程序，或使用其他系统。
 outofmemory=看起来您的系统内存不够了:(尝试关闭一些正在运行的程序，或重新启动计算机。如果问题仍然发生，检查您是否满足最低要求。
 datacorrupted=游戏数据文件似乎已损坏：（\n\n请尝试验证Steam中的游戏文件。\n如果问题仍然存在，请在官方Discord或Steam讨论板上报告。
+nomonitor=未找到可用显示器来运行游戏。\n\n请尝试重启计算机并更新驱动程序。
 savefailed1=尝试保存世界失败：
 savefailed2=为确保游戏保存成功，请尝试退出并重新加载世界。
 savecompressfailed=这通常是由防病毒软件阻止压缩存档引起的。\n\n您想在以后保存为未压缩的文件吗？
