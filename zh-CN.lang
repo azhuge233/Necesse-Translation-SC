@@ -968,6 +968,7 @@ piratebanner=海盗旗帜
 largepiratebanner=大型海盗旗帜
 vampiricbanner=吸血鬼旗帜
 largevampiricbanner=大型吸血鬼旗帜
+voidvessel=虚空容器
 
 [logicgate]
 andgate=与门
@@ -1145,7 +1146,7 @@ frostpickaxe=冰霜镐
 demonicpickaxe=恶魔镐
 runicpickaxe=符文镐
 ivypickaxe=常春藤镐
-Mquartzpickaxe=石英镐
+quartzpickaxe=石英镐
 tungstenpickaxe=钨镐
 glacialpickaxe=冰川镐
 dryadpickaxe=树灵镐
@@ -2229,6 +2230,7 @@ arcanicset2=每失去1点魔法，获得2层魔法过载增益
 arcanicset3=点击 [input=setability] 消耗至少50层魔法过载增益，对最近的目标造成等同于消耗层数的伤害
 deepfrostset=一把灵弓如影随形，在你使用远程武器时发射投射物
 cryowitchrobesset=点击 [input=setability] 冰封蓄力，随后爆发霜冻新星，大范围冻结非人形怪物
+supportersetbonus=闪闪发光！
 arachnidset=每占用3个召唤栏位，额外召唤一只蜘蛛
 soulseedset=点击 [input=setability] 引爆所有活跃召唤物，造成巨额伤害
 demonicset=点击 [input=setability] 献祭10%的生命值，暂时提升伤害、暴击率与移动速度
@@ -2236,6 +2238,8 @@ soldierhelmetset=击杀敌人可获得一层狂暴增益\n狂暴会提升你的�
 soldiercapset=远程武器投射物在击杀敌人时会弹射至其他目标
 thiefset1=击中敌人时有几率窃取金币
 thiefset2=点击 [input=setability] 向敌人掷出一把硬币
+supportersetwarning=仅限《奈斯启示录》支持者礼包（Supporter Pack）DLC拥有者装备
+supporterset=感谢您对《奈斯启示录》的支持 <3
 
 // Trinkets
 trinketslot=饰品槽位
@@ -2678,6 +2682,7 @@ coolingboxtip=减少储存物品的变质速度
 incineratortip=随时间摧毁储存的物品
 tictactoeboardtip=与中心格互动以开始游戏
 cosmeticbannertip=唯一的功能就是好看！
+voidvesseltip=里面散发着一股诡异的气息…
 
 // Firework
 fireworkrandom=随机
@@ -4838,6 +4843,7 @@ newworldcreativemode=创造模式
 newworldcreativemodedescription=你拥有所有资源\n发挥创意，自由建造吧！
 newworldcreativemodeinfo=创造模式下的世界会禁用成就系统
 newworldselectworldtype=选择世界类型
+supporterpackinstalled=支持者礼包已激活。谢谢你 <3
 
 // Achievements and stats form
 achievementsandstats=成就与统计数据
@@ -4961,7 +4967,6 @@ elderprevtip=上一个
 eldertip1=地下有许多资源和财宝，\n而去地下只要一个梯子
 eldertip2=有些配方被隐藏了，\n只有获得全部材料才能显现
 eldertip3=用这本合成指南来查看\n需求某种材料的配方
-eldertip4=有的岛上有村庄，\n里面有可进行交易的人
 eldertip5=地牢的尽头由一个强大的巫师看守
 eldertip6=如果你找到了那个传送门，\n你就可以用它召唤一个强大的恶魔
 eldertip7=钓鱼可以获得许多制造药水的材料
@@ -4978,7 +4983,7 @@ elderpicktopic=你想知道些什么？
 eldercrafting=制造
 eldercraftingtip=所有带有“材料”标签的物品都可以用于制造。\n你可以手工合成简单的物品，\n诸如工作站和铁砧这样的制造站\n可以制造更高级的物品。\n要显示特定的制造，可以使用过滤器。\n将物品放在以下槽位可以查看使用它的合成配方。
 eldertrading=交易
-eldertradingtip=有些村庄岛屿中有可交易的人，\n他们会买卖一些有关他们职业的物品。\n相同职业的人所买卖的物品和价格都可能不同。\n建立一个营地可以让他们入住。
+eldertradingtipnew=在村里能遇到各种商人，他们会随机买卖自己行当的货物。就算是同行，囤的货和价钱也可能不同。如果想随时与特定商人交易，最好的办法就是建立自己的营地。
 elderobjects=物体
 elderobjectstip=物体是世界中存在的事物：\n有些具有碰撞体积、有些可以互动。\n使用斧或是镐来破坏它们。
 eldertiles=地面(地板)
@@ -5539,7 +5544,7 @@ presetclearwiresofftip=粘贴此预设时，会放置预设内的导线，并保
 presetsubmittodevs=提交给开发者
 presetsubmittodevscooldown=您提交预设过于频繁，请稍候再试
 presetsubmittoobig=您的预设尺寸过大，无法提交。最大允许尺寸为 <size> 格
-presetsubmittodevstip1=在 1.0 正式发布之前，我们将向社区征集预设，并精选部分佳作加入官方游戏中。如果您想提交自己的预设，欢迎点击下方按钮！
+presetsubmittodevstip1a=将预设提交给开发团队，即有机会在未来的游戏更新中，让您的设计成为世界生成的一部分
 presetsubmittodevstip2=提交前将出现确认提示
 presettoclipboard=复制到剪贴板
 presetnoundohistory=没有可撤销的预设
@@ -6161,6 +6166,9 @@ findvoidwizardchamber=[mob=voidwizard] 找到虚空巫师的密室
 defeatpirateswhileonboat=[item=woodboat] 航行时击败 5 名海盗
 freecapturedstylist=[item=stylishflower] 找到并解救被囚禁的造型师
 destroycoinstacks=[item=coinstack] 在海盗村庄破坏五个金币堆
+
+[dlc]
+supporterpack=支持者礼包
 
 [credits]
 thankyou=感谢您的游玩！
