@@ -57,6 +57,7 @@ swampstonebrickfloor=沼泽岩石砖地板
 swampstonepathtile=沼泽岩石地板
 snowrocktile=雪地岩石地板
 lavatile=岩浆
+quicksandtile=流沙
 snowtile=雪
 icetile=冰
 snowstonefloor=雪石地板
@@ -557,7 +558,7 @@ cornseed=玉米种子
 tomatoseed=番茄种子
 cabbageseed=卷心菜种子
 chilipepperseed=辣椒种子
-sugarbeetseed=甜菜种子
+sugarbeetseed=白甜菜种子
 eggplantseed=茄子种子
 potatoseed=土豆种子
 riceseed=水稻种子
@@ -565,6 +566,7 @@ carrotseed=胡萝卜种子
 onionseed=洋葱种子
 pumpkinseed=南瓜种子
 strawberryseed=草莓种子
+beetseed=红甜菜种子
 coffeebeans=咖啡豆
 
 // Flowers / Alchemy
@@ -690,6 +692,7 @@ snowcrate=雪地箱
 swampcrate=沼泽箱
 christmascrate=圣诞箱
 vase=花瓶
+swampspore=沼泽孢子
 ancienttotem=远古图腾
 templepedestal=神殿基座
 settlementflag=营地旗帜
@@ -707,6 +710,7 @@ christmaswreath=圣诞花环
 fountain=喷泉
 overgrownfountain=杂草丛生的喷泉
 bloodfountain=血泉
+beetcavecroppler=奇特的红甜菜
 
 [logicgate]
 andgate=与门
@@ -1081,13 +1085,13 @@ venomstaff=毒液法杖
 dredgingstaff=淤泥法杖
 boulderstaff=巨石法杖
 quartzstaff=石英法杖
-elderlywand=古老法杖
+elderlywand=古老魔杖
 shadowbolt=暗影导弹
 iciclestaff=冰柱法杖
 shadowbeam=暗影激光
-emeraldwand=翡翠法杖
+emeraldwand=翡翠魔杖
 cryoquake=急冻地震
-swampdwellerstaff=沼泽管理权杖
+swampdwellerstaff=沼居者法杖
 venomshower=毒液法杖
 ancientdredgingstaff=远古淤泥法杖
 dragonlance=神龙闪
@@ -1097,6 +1101,10 @@ bloodgrimoire=血之魔典
 slimegreatbow=史莱姆巨弓
 webweaver=织网者
 refractor=折射器
+sapphirestaff=蓝宝石法杖
+amethyststaff=紫水晶法杖
+rubystaff=红宝石法杖
+emeraldstaff=翡翠法杖
 throwingweapon=投掷武器
 incursionthrowingweapon=副本投掷武器
 
@@ -1136,7 +1144,7 @@ necroticbow=死灵之弓
 stabbybush=刀人的灌木
 vulturestaff=秃鹫权杖
 rubyshields=红宝石盾
-cryostaff=急冻法杖
+cryostaff=急冻权杖
 phantomcaller=幻影权杖
 reaperscall=死神呼唤
 swampsgrasp=毒液权杖
@@ -1457,7 +1465,7 @@ spoiledfood=变质的食物
 
 // Food
 wheat=小麦
-sugarbeet=甜菜
+sugarbeet=白甜菜
 flour=面粉
 sugar=糖
 honey=蜂蜜
@@ -1479,6 +1487,7 @@ carrot=胡萝卜
 onion=洋葱
 pumpkin=南瓜
 strawberry=草莓
+beet=红甜菜
 apple=苹果
 lemon=柠檬
 coconut=椰子
@@ -1545,6 +1554,8 @@ raspberrymousse=树莓慕斯
 raspberryjam=树莓果酱
 raspberrypie=树莓派
 wildsalad=蔬菜沙拉
+rootsalad=根茎蔬菜沙拉
+cheesybeetbowl=芝士甜菜
 potion=药水
 
 // Potions
@@ -1941,6 +1952,18 @@ bloodbolttip=射出会返航的导弹
 necroticflasktip=投掷一瓶溅射药水，造成撞击伤害并使落地点的敌人中毒，在3秒内造成30点伤害
 bloodvolleytip=射出三个会返航的导弹
 froststafftip=射出2枚加速冰弹
+sapphirestafftip1=[input=mouse1] 射弹会弹射到附近的敌人，并在命中时生成生命精华
+sapphirestafftip2=[input=mouse2] 消耗 <value> 点生命精华，在地面上施放一个蓝宝石符文
+sapphirestafftip3=玩家和定居者站在激活的蓝宝石符文内时会受到治疗
+amethyststafftip1=[input=mouse1] 发射 <value> 道快速光束，命中时生成生命精华
+amethyststafftip2=[input=mouse2] 消耗 <value> 点生命精华，在地面上施放一个紫宝石符文
+amethyststafftip3=玩家和定居者站在激活的紫水晶符文内时会获得移动速度爆发
+rubystafftip1=[input=mouse1] 发射一个缓慢的射弹，命中时会引发强力爆炸并生成生命精华
+rubystafftip2=[input=mouse2] 消耗 <value> 点生命精华，在你周围施放一个红宝石符文
+rubystafftip3=玩家和定居者站在激活的红宝石符文内时会获得攻击速度增益
+emeraldstafftip1=[input=mouse1] 释放毒气，命中时生成生命精华
+emeraldstafftip2=[input=mouse2] 消耗 <value> 点生命精华，在地面上施放一个翡翠符文
+emeraldstafftip3=玩家和定居者站在激活的翡翠符文内时会获得暴击几率增益
 voidstafftip=射出瞬发虚空激光
 voidmissiletip=射出可控导弹(按住控制)
 swamptometip=发射一颗缓慢移动\n和弹跳的射弹
@@ -1985,7 +2008,7 @@ glacialboomerangtip=掷出后可控制
 glacialboomerangtip2=一次掷出两个回旋镖
 anchorandchaintip=击中会拉近目标\n攻击距离越近伤害越高
 nightrazorboomerangtip=自动瞄准敌人
-chefsspecialtip=交替投掷一把能在敌人间弹射的剁肉刀和一把命中后减速的擀面杖\n每击中一个敌人，你的食物增益持续时间增加1秒
+chefsspecialtip=交替投掷一把能在敌人间弹射的剁肉刀和一根命中后减速的擀面杖\n每击中一个敌人，你的食物增益持续时间增加1秒
 rollingpintip=击中时减缓目标速度
 butcherscleavertip=在附近的敌人间弹射
 cryoquaketip=形成一条冰锥线
@@ -2308,6 +2331,7 @@ steelboattip=+2旅行距离
 calloftheseatip=快于水，慢于地
 jumpingballtip=有趣，并且适合所有人！
 hoverboardtip=会缓慢增加速度
+hoverboardtip2=按 [input=trinketability] 向前冲刺
 witchbroomtip1=以下功能仅限地表使用：
 witchbroomtip2=按住 [input=trinketability] 可以飞得更高
 witchbroomtip3=能够飞越障碍物，但无法进行攻击
@@ -2326,6 +2350,7 @@ sunflowerseedammotip=种子枪击中目标时会恢复生命值
 eggplantseedammotip=种子枪子弹的飞行速度和射程增加
 onionseedammotip=种子枪子弹的飞行速度和射程增加
 sugarbeetseedammotip=种子枪子弹的飞行速度和射程增加
+beetseedammotip=种子枪子弹的飞行速度和射程增加
 cornseedammotip=种子枪的韧性增益提升
 wheatseedammotip=种子枪的韧性增益提升
 pumpkinseedammotip=种子枪的击退效果增强
@@ -2606,6 +2631,7 @@ attackmovement=<mod>% 攻击时移速惩罚
 projectilevel=<mod>% 射弹速度
 throwingvel=<mod>% 投掷物速度
 projectilebounce=<mod> 射弹弹跳次数
+blindness=<mod>% 致盲
 
 dashstacks=<mod> 冲刺叠加
 dashcooldown=<mod>% 冲刺冷却
@@ -2632,7 +2658,7 @@ paralyzed=瘫痪
 untargetable=无法被攻击
 intimidated=受到惊吓
 manaexhausted=魔法耗尽
-bloodmarked=鲜血标记
+grounded=被束缚
 
 targetrange=<mod>% 仇恨范围
 chaserrange=<mod>% 追逐范围
@@ -2683,6 +2709,7 @@ canarybird=金丝雀
 cardinalbird=红雀
 spider=蜘蛛
 mouse=老鼠
+beetcavecroppler=甜菜洞穴作物精
 caveling=穴居者
 stonecaveling=岩石穴居者
 deepstonecaveling=深层岩石穴居者
@@ -2881,6 +2908,7 @@ crystaldragon=水晶龙
 woodboat=木船
 minecart=矿车
 sawblade=锯刃
+lifeessencefollower=生命精华追随者
 homeportal=出生传送点
 returnportal=返回传送点
 bossspawnportal=BOSS传送点
@@ -3137,6 +3165,7 @@ frostburn=冰焰
 frostslow=冰霜减速
 sandknifewound=砂刃伤口
 haunted=缠绕
+emeraldpoison=翡翠毒素
 ivypoison=常春藤药水
 spidercharmpoison=蜘蛛之魅药水
 slimepoison=史莱姆毒素
@@ -3174,12 +3203,19 @@ spideritesetcooldown=蛛裔套装冷却
 flourcoveredslow=这些面粉让你举步维艰！
 stabbybushfrenzy=灌木狂刀！
 crystallize=结晶化
+swampspores=沼泽孢子
 foodbuff=消耗的食物
 fooddebuff=消耗的变质食物
 hungry=饥饿
 starving=极度饥饿
 stamina=耐力
 overchargedmana=魔法过载
+quicksandstacks=在流沙上行走
+lifeessence=生命精华
+sapphireglyph=蓝宝石符文
+rubyglyph=红宝石符文
+amethystglyph=紫宝石符文
+emeraldglyph=翡翠符文
 tremorincoming=震颤来临
 tremorhappening=震颤！移动速度减慢
 alchemicalinterference=药水持续时间减少
@@ -3197,6 +3233,11 @@ manaexhaustiontip=降低魔法攻击速度
 chargingmana=微弱闪电
 manacharged=强力闪电
 fullycharged=如此强大的力量！
+quicksandtip=移速降低
+sapphireglyphtip=生命恢复增加
+amethystglyphtip=移速增加
+rubyglyphtip=攻速增加
+emeraldglyphtip=暴击几率增加
 
 [biome]
 unknown=未知
