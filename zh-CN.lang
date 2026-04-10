@@ -223,6 +223,23 @@ ironlamp=铁灯
 goldlamp=金灯
 firechalice=火焰圣杯
 templefirechalice=圣殿火焰圣杯
+copperstreetlamp=铜路灯
+copperdoublestreetlamp=铜双头路灯
+ironstreetlamp=铁路灯
+irondoublestreetlamp=铁双头路灯
+goldstreetlamp=金路灯
+golddoublestreetlamp=金双头路灯
+tungstenstreetlamp=钨路灯
+tungstendoublestreetlamp=钨双头路灯
+oillantern=油灯
+lantern=提灯
+walllantern=壁灯
+wallcandle=壁烛
+stonecandlepedestal=石烛台
+snowcandlepedestal=雪烛台
+swampcandlepedestal=沼泽烛台
+desertcandlepedestal=沙漠烛台
+tikitorch=提基火把
 
 // Misc
 sign=木牌
@@ -4211,6 +4228,10 @@ capitalizetip=大写
 crafttohand=手工制作
 crafttoinventory=背包制作
 
+[incursion]
+duskarmorloot=等级 <tier> 暮光防具物品
+dawnarmorloot=等级 <tier> 晨光防具物品
+
 [misc]
 recipecostmult=制作 <amount> 的花费：
 recipecostsing=花费：
@@ -4227,6 +4248,7 @@ epescape=§b天亮了，恶魔守卫溜走了！
 bossmissingitem=§a缺少激活物品
 staircaseopening=§i隐藏的楼梯正在打开...
 cannotsummonhere=§a无法在这里召唤
+cannotsummoninincursion=§a无法在副本中召唤
 cannotsummoncomplete=§a副本已经完成
 cannotsummonnow=§a现在无法召唤
 settlerhungrywarning1=§b如果 <settler> 饥饿时间太长，他们将离开 <settlement>
