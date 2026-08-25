@@ -2476,7 +2476,7 @@ ammobox=子弹消耗减少75%
 frozenhearttip=增加50点生命上限
 frozenwavetip=暴击伤害提高25%
 spidercharm=被攻击时，给予攻击者剧毒\n5秒内造成40点伤害
-companionlockettip=每有一个未使用的召唤位，大幅提升召唤伤害和速度\n召唤物超过一个后增益递减
+companionlockettipnew=每有一个未使用的召唤槽，大幅提升召唤伤害和速度
 guardianshelltip=装备后按下 [input=trinketability] 可在短时间内获得强大护盾
 necroticsoulskulltip1=增加10%召唤伤害
 necroticsoulskulltip2=装备并点击 [input=trinketability] 施放死灵毒素\n在2秒内造成20点伤害，并将周围所有敌人击退
